@@ -1,6 +1,4 @@
-## Install Thonny
-
-# Install Thonny on a Raspberry Pi
+## Install Thonny on a Raspberry Pi
 
 - Thonny is already installed on Raspberry Pi OS, but may need to be updated to the latest version
 - Open a terminal window, either by clicking the icon in the top left-hand corner of the screen or by pressing the Ctrl+Alt+T keys at the same time
@@ -10,7 +8,7 @@
 sudo apt update && sudo apt upgrade -y
 ```
 
-# Install Thonny on other operating systems
+## Install Thonny on other operating systems
 
 - On Windows, macOS, and Linux, you can install the latest Thonny IDE or update an existing version
 - In a web browser, navigate to [thonny.org](https://thonny.org/)
@@ -19,7 +17,7 @@ sudo apt update && sudo apt upgrade -y
 
 ![Download instructions from thonny site](images/thonny-site.png)
 
-# Opening Thonny
+## Opening Thonny
 
 Open Thonny from your application launcher. It should look something like this:
 
