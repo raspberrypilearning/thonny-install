@@ -1,59 +1,56 @@
-## Introduction
+## Install Thonny
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
-
-### What you will make
-
---- no-print ---
-Add instructions for interacting with the embedded content here.
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
-
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+In this step, you will install Thonny or make sure you have the latest version. Then you will connect to a Raspberry Pi Pico and run some simple Python code using the Shell. 
 
 --- collapse ---
 ---
-title: What you will need
+
+title: Thonny on Raspberry Pi
+
 ---
-### Hardware
+- Thonny is already installed on Raspberry Pi OS, but may need to be updated to the latest version
+- Open a terminal window, either by clicking the icon in the top left-hand corner of the screen or by pressing the Ctrl+Alt+T keys at the same time
+- In the window, type the following to update your OS and Thonny
 
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
+```bash
+sudo apt update && sudo apt upgrade -y
+```
 
 --- /collapse ---
 
 --- collapse ---
----
-title: What you will learn
+
 ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
+title: Install Thonny on other operating systems
+
+---
+
+- On Windows, macOS, and Linux, you can install the latest Thonny IDE or update an existing version
+- In a web browser, navigate to [thonny.org](https://thonny.org/)
+- In the top right-hand corner of the browser window, you will see download links for Windows and macOS, and instructions for Linux
+- Download the relevant files and run them to install Thonny
+
+![Download instructions from thonny site](images/thonny-site.png)
 
 --- /collapse ---
 
---- collapse ---
----
-title: Additional information for educators
----
+--- task ---
 
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
+Open Thonny from your application launcher. It should look something like this:
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
+![Thonny application](images/thonny-editor.png)
 
---- /collapse ---
+--- /task ---
+
+--- task ---
+
+You can use Thonny to write standard Python code. Type the following in the main window, and then click the **Run** button (you will be asked to save the file).
+
+```python3
+print('Hello World!')
+```
+
+--- /task ---
+
+You're now ready to move on to the next step and connect your Raspberry Pi Pico.
