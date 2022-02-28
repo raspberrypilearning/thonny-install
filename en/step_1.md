@@ -11,7 +11,7 @@ sudo apt update && sudo apt upgrade -y
 ## Install Thonny on other operating systems
 
 - On Windows, macOS, and Linux, you can install the latest Thonny IDE or update an existing version
-- In a web browser, navigate to [thonny.org](https://thonny.org/)
+- In a web browser, navigate to [thonny.org](https://thonny.org/){:target="_blank"}
 - In the top right-hand corner of the browser window, you will see download links for Windows and macOS, and instructions for Linux
 - Download the relevant files and run them to install Thonny
 
