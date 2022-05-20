@@ -1,29 +1,29 @@
-## Install Thonny on a Raspberry Pi
+## تثبيت Sonic Pi على Raspberry Pi
 
-- Thonny is already installed on Raspberry Pi OS, but may need to be updated to the latest version
-- Open a terminal window, either by clicking the icon in the top left-hand corner of the screen or by pressing the Ctrl+Alt+T keys at the same time
-- In the window, type the following to update your OS and Thonny
+- تم تثبيت Thonny بالفعل على نظام Raspberry Pi OS ، ولكن قد تحتاج إلى التحديث إلى أحدث إصدار
+- افتح نافذة طرفية ، إما عن طريق النقر فوق الرمز الموجود في الزاوية العلوية اليسرى من الشاشة أو بالضغط على مفاتيح Ctrl + Alt + T في نفس الوقت
+- في النافذة ، اكتب ما يلي لتحديث نظام التشغيل و Thonny
 
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
 
-## Install Thonny on other operating systems
+## تثبيت Thonny على أنظمة التشغيل الأخرى
 
-- On Windows, macOS, and Linux, you can install the latest Thonny IDE or update an existing version
-- In a web browser, navigate to [thonny.org](https://thonny.org/){:target="_blank"}
-- In the top right-hand corner of the browser window, you will see download links for Windows and macOS, and instructions for Linux
-- Download the relevant files and run them to install Thonny
+- في أنظمة التشغيل Windows و macOS و Linux ، يمكنك تثبيت أحدث إصدار من Thonny IDE أو تحديث إصدار موجود
+- في متصفح الويب , انتقل الى [Thonny.org](https://thonny.org/){:target="_blank"}
+- في الزاوية العلوية اليمنى من نافذة المتصفح ، سترى روابط التنزيل لنظامي التشغيل Windows و macOS ، وإرشادات لنظام التشغيل Linux
+- قم بتنزيل الملفات ذات الصلة وتشغيلها لتثبيت Thonny
 
-![Download instructions from thonny site](images/thonny-site.png)
+![حمل ألارشادات من موقع thonny](images/thonny-site.png)
 
-## Opening Thonny
+## افتح Thonny
 
-Open Thonny from your application launcher. It should look something like this:
+افتح Thonny من مشغل التطبيق الخاص بك. يجب أن يكون لديك شيء كهذا:
 
-![Thonny application](images/thonny-editor.png)
+![تطبيق Thonny](images/thonny-editor.png)
 
-You can use Thonny to write standard Python code. Type the following in the main window, and then click the **Run** button (you will be asked to save the file).
+يمكنك استخدام Thonny لكتابة كود Python القياسي. اكتب ما يلي في النافذة الرئيسية ، ثم انقر فوق زر **التشغيل** (سيُطلب منك حفظ الملف).
 
 ```python3
 print('Hello World!')
