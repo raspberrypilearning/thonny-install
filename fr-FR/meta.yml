@@ -1,11 +1,11 @@
 ---
-title: Install Thonny
+title: Installer Thonny
 hero_image: images/banner.png
-description: Install the Thonny Python editor.
+description: Installer l'éditeur Python Thonny.
 version: 4
 listed: false
 copyedit: false
 last_tested: "2022-01-24"
 steps:
   - 
-    title: Install Thonny
+    title: Installer Thonny
