@@ -1,29 +1,29 @@
-## Install Thonny on a Raspberry Pi
+## Installer Thonny sur un Raspberry Pi
 
-- Thonny is already installed on Raspberry Pi OS, but may need to be updated to the latest version
-- Open a terminal window, either by clicking the icon in the top left-hand corner of the screen or by pressing the Ctrl+Alt+T keys at the same time
-- In the window, type the following to update your OS and Thonny
+- Thonny est déjà installé sur Raspberry Pi OS, mais peut nécessiter une mise à jour vers la dernière version
+- Ouvre une fenêtre de terminal, soit en cliquant sur l'icône en haut à gauche de l'écran, soit en appuyant simultanément sur les touches Ctrl+Alt+T
+- Dans la fenêtre, tape ce qui suit pour mettre à jour ton système d'exploitation et Thonny
 
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
 
-## Install Thonny on other operating systems
+## Installer Thonny sur d'autres systèmes d'exploitation
 
-- On Windows, macOS, and Linux, you can install the latest Thonny IDE or update an existing version
-- In a web browser, navigate to [thonny.org](https://thonny.org/){:target="_blank"}
-- In the top right-hand corner of the browser window, you will see download links for Windows and macOS, and instructions for Linux
-- Download the relevant files and run them to install Thonny
+- Sous Windows, macOS et Linux, tu peux installer le dernier Thonny IDE ou mettre à jour une version existante
+- Dans un navigateur Web, accède à [thonny.org](https://thonny.org/){:target="_blank"}
+- Dans le coin supérieur droit de la fenêtre du navigateur, tu verras des liens de téléchargement pour Windows et macOS, ainsi que des instructions pour Linux
+- Télécharge les fichiers pertinents et exécute-les pour installer Thonny
 
-![Download instructions from thonny site](images/thonny-site.png)
+![Télécharger les instructions sur le site thonny](images/thonny-site.png)
 
-## Opening Thonny
+## Ouvrir Thonny
 
-Open Thonny from your application launcher. It should look something like this:
+Ouvre Thonny depuis ton lanceur d'applications. Ça devrait ressembler a quelque chose comme çà :
 
-![Thonny application](images/thonny-editor.png)
+![Application Thonny](images/thonny-editor.png)
 
-You can use Thonny to write standard Python code. Type the following in the main window, and then click the **Run** button (you will be asked to save the file).
+Tu peux utiliser Thonny pour écrire du code Python standard. Tape ce qui suit dans la fenêtre principale, puis clique sur le bouton **Exécuter** (tu seras invité à enregistrer le fichier).
 
 ```python3
 print('Hello World!')
