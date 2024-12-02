@@ -19,7 +19,7 @@ sudo apt update && sudo apt upgrade -y
 
 ## Opening Thonny
 
-Open Thonny from your application launcher. It should look something like this:
+Open Thonny from your application launcher. Θα πρέπει να μοιάζει κάπως έτσι:
 
 ![Thonny application](images/thonny-editor.png)
 
