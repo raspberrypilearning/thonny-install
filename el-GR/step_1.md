@@ -1,7 +1,7 @@
-## Install Thonny on a Raspberry Pi
+## Εγκαταστήστε το Thonny σε ένα Raspberry Pi
 
-- Thonny is already installed on Raspberry Pi OS, but may need to be updated to the latest version
-- Open a terminal window, either by clicking the icon in the top left-hand corner of the screen or by pressing the Ctrl+Alt+T keys at the same time
+- Το Thonny είναι ήδη εγκατεστημένο στο Raspberry Pi OS, αλλά ίσως χρειαστεί να αναβαθμιστεί στην πιο πρόσφατη έκδοση
+- Ανοίξτε ένα τερματικό παράθυρο, είτε κάνοντας κλικ στο εικονίδιο στην επάνω αριστερή γωνία της οθόνης είτε πατώντας τα πλήκτρα Ctrl+Alt+T ταυτόχρονα
 - In the window, type the following to update your OS and Thonny
 
 ```bash
