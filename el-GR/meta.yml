@@ -1,11 +1,11 @@
 ---
-title: Install Thonny
+title: Εγκατάσταση Thonny
 hero_image: images/banner.png
-description: Install the Thonny Python editor.
+description: Εγκατάστησε τον επεξεργαστή Thonny για Python.
 version: 4
 listed: false
 copyedit: false
 last_tested: "2022-01-24"
 steps:
   - 
-    title: Install Thonny
+    title: Εγκατάσταση Thonny
