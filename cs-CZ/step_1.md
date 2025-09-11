@@ -1,29 +1,29 @@
-## Install Thonny on a Raspberry Pi
+## Instalace editoru Thonny na Raspberry Pi
 
-- Thonny is already installed on Raspberry Pi OS, but may need to be updated to the latest version
-- Open a terminal window, either by clicking the icon in the top left-hand corner of the screen or by pressing the Ctrl+Alt+T keys at the same time
-- In the window, type the following to update your OS and Thonny
+- Thonny je již nainstalován na operačním systému Raspberry Pi OS, ale může být nutné jej aktualizovat na nejnovější verzi
+- Otevři okno terminálu buď kliknutím na ikonu v levém horním rohu obrazovky, nebo současným stisknutím kláves Ctrl+Alt+T
+- V okně zadej následující příkaz pro aktualizaci operačního systému a Thonny
 
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
 
-## Install Thonny on other operating systems
+## Instalace editoru Thonny na jiné operační systémy
 
-- On Windows, macOS, and Linux, you can install the latest Thonny IDE or update an existing version
-- In a web browser, navigate to [thonny.org](https://thonny.org/){:target="_blank"}
-- In the top right-hand corner of the browser window, you will see download links for Windows and macOS, and instructions for Linux
-- Download the relevant files and run them to install Thonny
+- V systémech Windows, macOS a Linux si můžeš nainstalovat nejnovější Thonny IDE nebo aktualizovat stávající verzi
+- Ve webovém prohlížeči přejdi na [thonny.org](https://thonny.org/){:target="_blank"}
+- V pravém horním rohu okna prohlížeče uvidíš odkazy ke stažení pro Windows a macOS a pokyny pro Linux
+- Stáhni si příslušné soubory a spusť je pro instalaci editoru Thonny
 
-![Download instructions from thonny site](images/thonny-site.png)
+![Stáhni si návod ze stránek thonny](images/thonny-site.png)
 
-## Opening Thonny
+## Otevření Thonny
 
-Open Thonny from your application launcher. It should look something like this:
+Otevři Thony ze spouštěče aplikací. Mělo by to vypadat nějak takto:
 
-![Thonny application](images/thonny-editor.png)
+![Aplikace Thonny](images/thonny-editor.png)
 
-You can use Thonny to write standard Python code. Type the following in the main window, and then click the **Run** button (you will be asked to save the file).
+Thonny lze použít k psaní standardního kódu v Pythonu. Do hlavního okna zadej následující příkaz a poté klikni na tlačítko **Spustit** (budeš vyzván k uložení souboru).
 
 ```python3
 print('Hello World!')
