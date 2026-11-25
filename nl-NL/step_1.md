@@ -26,5 +26,7 @@ Open Thonny vanuit je applicatiestarter (menu of taakbalk). Het zou er ongeveer 
 Je kunt Thonny gebruiken om standaard Python-code te schrijven. Typ het volgende in het hoofdvenster en klik vervolgens op de knop **Run** (je wordt gevraagd het bestand op te slaan).
 
 ```python3
-print('Hallo wereld!')
+print('Hello World!')
 ```
+
+

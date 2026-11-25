@@ -26,6 +26,7 @@ Abre Thonny desde tu lanzador de aplicaciones. Deberías tener algo como esto:
 Puedes usar Thonny para escribir código estándar de Python. Escribe lo siguiente en la ventana principal y luego haz clic en el botón **Ejecutar** (se te pedirá que guardes el archivo).
 
 ```python3
-print('¡Hola Mundo!')
+print('Hello World!')
 ```
+
 

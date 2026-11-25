@@ -26,7 +26,7 @@ Otevři Thony ze spouštěče aplikací. Mělo by to vypadat nějak takto:
 Thonny lze použít k psaní standardního kódu v Pythonu. Do hlavního okna zadej následující příkaz a poté klikni na tlačítko **Spustit** (budeš vyzván k uložení souboru).
 
 ```python3
-print('Ahoj světe!')
+print('Hello World!')
 ```
 
 
